@@ -34,7 +34,8 @@ export function getCurrentPostComments(id) {
     return dispatch => {
         (async () => {
             await axios
-                .get(`${API_URL}posts/${id}?_embed=comments`)
+                .get(`${API_URL}posts/${id}`,
+                    {params: {_embed: 'comments'}})
                 .then(r => dispatch(
                     {type: SHOW_COMMENTS, payload: r.data.comments}));
         })();
