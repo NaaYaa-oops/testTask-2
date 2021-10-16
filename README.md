@@ -1,7 +1,6 @@
 # Getting Started
 
-This project was bootstrapped
-with [Create React App](https://github.com/facebook/create-react-app).
+[Try it via link...](https://test-task-inquire-dev.web.app/posts-list)
 
 ## Available Scripts
 
