@@ -1,5 +1,4 @@
-import {Loader} from './loader/Loader'
-import {Navbar} from './navbar/Navbar'
+import { Loader } from './loader/Loader'
+import { Navbar } from './navbar/Navbar'
 
-
-export {Loader, Navbar}
+export { Loader, Navbar }
