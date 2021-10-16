@@ -5,7 +5,6 @@ import {
     addCommentToCurrentPost,
     getCurrentPostComments,
 } from '../../redux/actions';
-import {Loader} from '../../components';
 
 
 export const Comments = () => {
@@ -24,13 +23,13 @@ export const Comments = () => {
         dispatch(addCommentToCurrentPost(+id, comment.current.value));
     };
 
-    if (!currentComments.length) {
-        return <Loader/>;
-    }
+    // if (!currentComments.length) {
+    //     return <Loader/>;
+    // }
     return (
         <div>
-            <div>
-                <h1>Comments to: </h1>
+            <div className={'d-flex align-items-center'}>
+                <h1>Comments to: &nbsp;</h1>
                 <strong>{posts[id - 1].title}</strong>
             </div>
             {currentComments.map(e => (
