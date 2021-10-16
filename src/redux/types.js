@@ -1,0 +1,6 @@
+export const CREATE_POST = 'API/CREATE_POST'
+export const UPDATE_POST = 'API/UPDATE_POST'
+export const DELETE_POST = 'API/DELETE_POST'
+export const ADD_COMMENT = 'API/ADD_COMMENT'
+export const FETCH_POSTS = 'APP/FETCH_POSTS'
+export const SHOW_COMMENTS = 'APP/SHOW_COMMENTS'
